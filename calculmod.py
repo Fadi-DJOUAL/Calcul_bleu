@@ -3,7 +3,7 @@ import math
 print("(1) Addition, (2) subtraction, (3) multiplication, (4) division, (5) exponent, (6) tan, (7) sin, (8) cos, (9) factorielle (10) log, (11) racine, (12) puissance de 10, (13) puissance carrée, (14) Modulo ")
 
 o = input("Entrez le numéro de l'opération: ") 
-if (o >=0 && o<=14):
+if (o >=0 and o<=14):
 	if o == "1": 
     		x = int(input("Donnez un 1er chiffre : ")) 
     		y = int(input("Donnez un 2eme chiffre : ")) 
